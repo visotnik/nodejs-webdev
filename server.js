@@ -19,6 +19,7 @@ app = express();
 app.set("view engine", "ejs");
 
 const PORT = process.env.PORT;
+// server Mongo
 const db = process.env.MONGO_URL;
 
 // { useNewUrlParser: true, useUnifiedTopology: true } - опциональные параметры
